@@ -18,8 +18,8 @@ const StoreProvider = ({ value = [], ...props }) => {
     return <Provider value={[state, dispatch]} {...props} />;
 };
 
-const useStoreContext = () => {
-    return useContext(StoreContext);
-}
+// const useStoreContext = () => {
+//     return useContext(StoreContext);
+// }
 
 export { StoreProvider, useStoreContext };
