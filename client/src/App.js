@@ -12,6 +12,7 @@ import Nav from "./components/Nav";
 import { useDispatch, useSelector } from "react-redux";
 import { bindActionCreators } from "redux";
 import { actionCreators } from "./state/index";
+import { state, dispatch } from './state/store';
 import Success from "./pages/Success";
 import OrderHistory from "./pages/OrderHistory";
 
